@@ -372,7 +372,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [ RANJHA-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/RANJHA-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/Mehdi-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -393,15 +393,7 @@ logo = ("""\033[1;32m
 ║║║║║║╩╗║╔╗║╔╩╝║╔║║╗
 ╚╩═╩╝╚═╝╚╝╚╝╚══╝╚══╝\033
 __________________×______________________
-  
-  Auther   :  Mehdi Hasan
- 
-  Github   :  Mehdi Hasan
-
-  Facebook : Mehdi Hasan
-  
-  Contact : 01932347250
-  Don't Copy Mother Fucker Your Dad Come Back
+   Mehdi Is Not Name Its Brand
 ╭━╮
 ┣━┫
 ┃╭┃
@@ -421,11 +413,7 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("\n [1] File Cloning")
-		print(" [2] Public Cloning")
 		print(" [3] Create File")
-		print(" [4] 2009-10 Cloning")
-		print(" [5] 2011-14 Cloning")
-		print(" [E] Exit Programming\n")
 		SM =input(" Choose : ")
 		if SM in ["1", "01"]:
 			File()
